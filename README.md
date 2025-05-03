@@ -55,7 +55,7 @@ Install dependencies:
 sudo apt update
 sudo apt install -y nasm gcc-multilib binutils qemu-system-x86
 
-Building & Running on Ubuntu WSL
+# Building & Running on Ubuntu WSL
 
 Clone the repository:
 git clone  && cd bootloader
@@ -70,7 +70,7 @@ Run in QEMU on ubuntu wsl: qemu-system-x86_64 -drive format=raw,file=boot.bin
 make clean
 
 
-Running on Windows 11 (CMD Prompt)
+# Running on Windows 11 (CMD Prompt)
 
 Install Ubuntu WSL and required packages:
 
